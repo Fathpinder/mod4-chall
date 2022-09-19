@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box}
+
+:root {
+     --primary: rgb(109, 17, 196);
+     --secondary: white}
+
+body {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--secondary)}
+
+button {
+    border: none;
+    padding: 5px 10px;
+    background: var(--primary);
+    font-size: 16pt;
+    color: var(--secondary);
+    border-radius: 5px;
+    margin:0 auto;
+    display: block}
+
+.quiz-container {
+    justify-content: center;
+    display: inline-block;
+    margin: 5px}
